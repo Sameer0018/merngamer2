@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+
+}
+/* body{
+  background-color: red;
+} */
+
+.containers{
+  display: flex;
+  height: 700px;
+  width: 800px;
+  margin: auto;
+  border: 1px solid black;
+
+  margin-top: 50px;
+box-shadow: 15px 15px 20px solid black ; 
+}
+/* 
+Login form */
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.form h2{
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 40px;
+
+}
+.box{
+  padding: 12px;
+  width: 85%;
+  margin: 10px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 20px;
+}
+
+#signin{
+  padding: 12px 30px; 
+ width: 40%;
+ margin-top: 40px;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+ border:none;
+ outline: none;
+ border-radius: 20px;
+}
+
+#signin:hover{
+ cursor: pointer;
+ background-color: red;
+}
+
+.form a{
+ text-decoration: none;
+ color: black;
+ margin-top: 20px;
+
+}
+
+.form a:hover{
+ color: red;
+
+
+
+}
+
+
+
+/* Right side */
+.side{
+ display: flex;
+justify-content: center;
+align-items: center;
+width: 50%; 
+margin: 5px;
+
+
+}
+.side img{
+ width:390px;
+height:700px;
+}
+
